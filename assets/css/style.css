@@ -1,0 +1,46 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    /*height: 10em;*/
+    padding: 3em;
+    font-size: 1.2em;
+    background-image: url("../img/banner-games-2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+
+.products{
+    width: 80%;
+    margin: auto;
+}
+
+.products td{
+    padding: 2em;
+    text-align: center;
+}
+
+.products img{
+    width: 50%;
+    border:solid 3px rgb(170, 171, 248);
+}
+
+.products p{
+    font-weight: 600;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(86, 119, 216);
+    color:white;
+    text-align: center;
+    font-weight: 900;
+}
